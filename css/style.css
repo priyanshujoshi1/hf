@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navigation {
+  margin-top: 23px;
+  font-family: var(--font2);
+  /* height: 95px; */
+  /* background-color: gold; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  font-size: 42px;
+  display: flex;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font1);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a:hover {
+  color: white;
+  background: var(--main-bg-color);
+  font-weight: bold;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 75px;
+  font-size: 15px;
+  padding-bottom: 23px;
+}
+
+.content-left {
+  font-family: var(--font2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  z-index: 1;
+}
+
+.content {
+  height: 100%;
+  /* background-color: rgb(200, 194, 252); */
+  display: flex;
+  margin-top: 32px;
+  padding: 8px;
+  position: relative;
+}
+
+.content::after {
+  content: "";
+  background-image: url("../img/2.svg.jpg");
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.25;
+}
+
+.content-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  height: 254px;
+  border: 3px solid black;
+  border-radius: 200px;
+}
+
+.Home-articals {
+  height: 455px;
+  padding-top: 12px;
+  position: relative;
+  /* background-color: rgb(196, 170, 170); */
+}
+
+.Home-artical {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.Home-artical img {
+  width: 300px;
+}
+
+.home-artical-content {
+  align-self: center;
+  padding: 25px;
+}
+
+.home-artical-content a {
+  text-decoration: none;
+  color: black;
+}
+
+/*.Home-articals{}*/
+
+.footer {
+  height: 65px;
+  background-color: rgb(109, 73, 227);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+.footer a {
+  color: white;
+}

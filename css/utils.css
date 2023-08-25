@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Black+Ops+One&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+:root{
+    --main-bg-color: rgb(87, 87, 180);
+    --font1:'Baloo 2', cursive;
+    --font2:'Black Ops One', cursive;
+
+    .font1{
+      font-family: var(--font2);
+    }
+    .font2{
+      font-family: var(--font1);
+    }
+
+.max-width-1 {
+  max-width: 70vw;
+}
+
+.max-width-2 {
+  max-width: 50vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.my-2{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  padding: 4px 14px;
+    border: 3px black;
+    border-radius: 7px;
+    font-family: var(--font2);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+  color: white;
+  background: var(--main-bg-color);
+}
+
+.form-input{
+  padding: 3px 5px;
+    font-size: 12px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 14px;
+    font-family: var(--font2);
+}
+
+.form-box input, textarea{
+  width: 44vw;
+    padding: 8px 6px;
+    margin: 8px 0;
+    font-size: 18px;
+    font-family: var(--font2);
+    border: 2px solid cornflowerblue;
+    border-radius: 10px;
+}
