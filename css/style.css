@@ -6,7 +6,7 @@
   margin-top: 23px;
   font-family: var(--font2);
   /* height: 95px; */
-  /* background-color: gold; */
+  background-color: gold; 
   display: flex;
   justify-content: space-between;
   align-items: center;
